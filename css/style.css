@@ -9,17 +9,133 @@
   white-space: nowrap;
   border: 0;
 }
+/* відміняємо крапки списків */
+ul {
+  list-style: none;
+}
+/* Скасовуємо підкреслення у посилань */
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+/* PAGE PORTFOLIO */
+/* palitra:
+колір посилань(номер тел. пошта): #757575
+
+колір основного тексту: color: #000
+
+колір вторичного тексту: #212121
+
+колір посилань:  color: #2196f3
+
+футер:
+лого: 
+rgba(33, 150, 243, 1)
+rgba(255, 255, 255, 1)
+адреса: 
+rgba(255, 255, 255, 1)
+колір  посилань(номер тел. пошта)-
+rgba(255, 255, 255, 0.6)
+
+
+
+*/
+.body {
+  color: #000;
+  font-family: "roboto";
+  height: 100%;
+  font-family: sans-serif;
+}
+
+/* header, footer */
 .logo {
   color: #000;
+  /* font-weight: 400; */
+  font-size: 26px;
+  font-family: "Raleway";
+  line-height: 190.75%;
+  text-shadow: rgba(0, 0, 0, 0.25);
 }
+
 .logo:hover,
 .logo:focus {
   color: #2196f3;
 }
+/* навігація сайту */
 .site-nav {
   color: #000;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
 }
 .site-nav:hover,
 .site-nav:focus {
   color: #2196f3;
 }
+/* посилання на номер телефону та е-mail */
+.site-nav-contact-header {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 102.5625%;
+}
+.site-nav-contact-header:hover,
+.site-nav-contact-header:focus {
+  color: #2196f3;
+}
+/* кнопки керування постерами */
+.buttons-head {
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162.5%;
+  font-family: "Raleway";
+  font-style: normal;
+  cursor: pointer;
+}
+/* назва постерів */
+.Portfolio-name-card {
+  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 162.5%;
+}
+/* опис постерів */
+.type-of-work {
+  color: #757575;
+  /* font-weight: 400; */
+  font-size: 16px;
+  line-height: 187.5%;
+}
+/* footer */
+.foot {
+  background-color: rgba(47, 48, 58, 1);
+}
+.logo-foot {
+  color: #2196f3;
+  font-family: "Raleway";
+}
+.adress {
+  color: rgba(255, 255, 255, 1);
+  /* font-weight: 400; */
+  font-size: 14px;
+  line-height: 150%;
+  font-family: "Roboto";
+}
+.site-nav-contact-footer {
+  color: rgba(255, 255, 255, 0.6);
+  /* font-weight: 400; */
+  font-size: 14px;
+  line-height: 150%;
+}
+.adress:hover,
+.adress:focus {
+  color: #2196f3;
+}
+.site-nav-contact-footer:hover,
+.site-nav-contact-footer:focus {
+  color: #2196f3;
+}
+
+/* P A G E  I N D E X . H T M L */ ;
