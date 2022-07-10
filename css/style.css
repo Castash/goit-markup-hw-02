@@ -9,3 +9,17 @@
   white-space: nowrap;
   border: 0;
 }
+.logo {
+  color: #000;
+}
+.logo:hover,
+.logo:focus {
+  color: #2196f3;
+}
+.site-nav {
+  color: #000;
+}
+.site-nav:hover,
+.site-nav:focus {
+  color: #2196f3;
+}
