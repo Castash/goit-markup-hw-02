@@ -1,3 +1,79 @@
+/* P A G E  I N D E X . H T M L */
+.container {
+}
+.mainhead {
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 1);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+/* головна кнопка
+ */
+.buttons-head-main {
+  background-color: #2196f3;
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+}
+/* оформлення h3 та опису */
+.h3main-page {
+  color: #212121;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.p-mainpage {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #757575;
+}
+/* оформленян h2 */
+.h2-mainpage {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/* оформлення заголовків постерів та опису */
+.h3titleposter {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.opisposter {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -55,7 +131,6 @@ rgba(255, 255, 255, 0.6)
   font-size: 26px;
   font-family: "Raleway";
   line-height: 190.75%;
-  text-shadow: rgba(0, 0, 0, 0.25);
 }
 
 .logo:hover,
@@ -136,82 +211,4 @@ rgba(255, 255, 255, 0.6)
 .site-nav-contact-footer:hover,
 .site-nav-contact-footer:focus {
   color: #2196f3;
-}
-
-/* P A G E  I N D E X . H T M L */
-.container {
-}
-.mainhead {
-  color: #ffffff;
-  background-color: rgba(47, 48, 58, 1);
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 900;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-/* головна кнопка
- */
-.buttons-head-main {
-  background-color: #2196f3;
-  color: #ffffff;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-}
-/* оформлення h3 та опису */
-.h3main-page {
-  color: #212121;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.p-mainpage 
-{font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 171% 
-letter-spacing: 0.03em;
-  color: #757575;
-}
-/* оформленян h2 */
-.h2-mainpage {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-/* оформлення заголовків постерів та опису */
-.h3titleposter {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-.opisposter {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.03em;
-  color: #757575;
 }
